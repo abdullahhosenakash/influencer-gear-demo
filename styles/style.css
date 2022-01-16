@@ -98,6 +98,18 @@ header{
     width: 440px;
     height: 414px;
 }
+#main-camera:hover{
+    transition: 1s;
+    transform: rotate(360deg);
+}
+
+/* Horizontal Line  */
+.horizontal-line{
+    height: 1px;
+    width: 66em;
+    margin: 25px auto;
+    background-image: -webkit-gradient(linear, left bottom, right bottom, color-stop(0.02, white),color-stop(0.5, gray), color-stop(0.98, white));
+}
 
 /* Logo Section  */
 .logos{

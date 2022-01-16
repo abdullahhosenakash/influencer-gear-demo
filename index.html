@@ -10,7 +10,9 @@
     <script src="https://kit.fontawesome.com/89d7c52978.js" crossorigin="anonymous"></script>
     <!-- Stylesheets -->
     <link rel="stylesheet" href="styles/style.css">
-    <link rel="stylesheet" media="screen and (max-width: 688px)" href="styles/mobile-devices.css">
+    <link rel="stylesheet" media="only screen and (max-width: 688px)" href="styles/mobile-devices.css">
+    <link rel="stylesheet" media="only screen and (min-width: 689px) and (max-width: 991px)"
+        href="styles/tablet-devices.css">
 </head>
 
 <body>
@@ -53,7 +55,7 @@
         </section>
 
         <!-- Logo Section -->
-        <hr>
+        <div class="horizontal-line"></div>
         <section class="logos">
             <div class="logo"><img src="images/logos/Alibaba.svg" alt=""></div>
             <div class="logo"><img src="images/logos/Amazon.svg" alt=""></div>
@@ -63,7 +65,7 @@
             <div class="logo"><img src="images/logos/Walmart.svg" alt=""></div>
             <div class="logo"><img src="images/logos/Target.svg" alt=""></div>
         </section>
-        <hr>
+        <div class="horizontal-line"></div>
 
         <!-- Popular Collection -->
         <section class="popular-collection">
@@ -181,7 +183,7 @@
                     </p>
                     <p class="product-info">Nice screen for background. Worldwide Shipping</p>
                 </div>
-                <div class="product">
+                <div class="product" id="action-camera">
                     <img src="images/images/action.png" alt="">
                     <h3>Action Camera</h3>
                     <p class="price">$380.00</p>
@@ -200,7 +202,7 @@
         </section>
 
         <!-- Extra Section  -->
-        <hr>
+        <div class="horizontal-line"></div>
         <section class="bonus">
             <div class="bonus-div">
                 <div class="bonus-icons">
