@@ -1,3 +1,4 @@
+
 /* common properties */
 body, .influencer-image, .popular-collection, .image{
     margin: 0;
@@ -89,6 +90,6 @@ main{
 }
 
 
-hr{
+.horizontal-line{
     display: none;
 }
