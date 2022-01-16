@@ -61,24 +61,33 @@ main{
     justify-content: center;
 }
 .popular-collection>p{
+    text-align: right;
     margin-right: 16px;
+    margin-left: 140px;
+    width: 200px;
 }
 
 /* Extra Section */
 .bonus{
     flex-direction: column;
 }
-.image{
-    margin-top: 30px;
-    margin-bottom: 30px;
-}
-.image img{
-    width: 299px;
-    height: 188px;
-}
-.bonus-text{
+.bonus-text, .bonus-icon{
     text-align: center;
 }
+
+.bonus .bonus-div{
+    flex-direction: column;
+    column-gap: 5%;
+}
+.bonus-icons div{
+    grid-template-columns: 1fr;
+    align-items: center;
+    justify-items: center;
+}
+.icon-text {
+    margin-top: 0;
+}
+
 
 hr{
     display: none;
