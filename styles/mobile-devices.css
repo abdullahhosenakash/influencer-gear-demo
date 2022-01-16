@@ -60,6 +60,9 @@ main{
     grid-template-columns: repeat(1, 330px);
     justify-content: center;
 }
+.popular-collection>p{
+    margin-right: 16px;
+}
 
 /* Extra Section */
 .bonus{
